@@ -44,8 +44,7 @@ int _isalpha(int c)
  * @s: the string to be removed.
  * Return: 0 if no numbers in the string, converted number if otherwise.
  */
-
-int _atoi(int *s)
+int _atoi(char *s)
 {
 	int i, sign = 1, flag = 0, output;
 	unsigned int result = 0;
